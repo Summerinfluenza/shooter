@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Eden"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jargon/school/eden"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eden">
+				<Option output="/home/jargon/school/eden/Eden" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jargon/school/eden"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 Eden"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Eden/fast">
+				<Option output="/home/jargon/school/eden/Eden" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jargon/school/eden"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 Eden/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jargon/school/eden"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jargon/school/eden"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/jargon/school/eden/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jargon/school/eden/Character.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Character.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Enemy.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Enemy.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Game.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Game.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Healthbar.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Healthbar.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Lilith.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Lilith.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/MovingObject.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/MovingObject.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Player.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Player.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Projectile.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Projectile.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/SpriteObject.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/SpriteObject.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Wall.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Wall.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Worm.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/Worm.h">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/level.txt">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/main.cpp">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/suppressions.txt">
+			<Option target="Eden"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/jargon/school/eden/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

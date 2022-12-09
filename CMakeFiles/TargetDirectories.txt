@@ -1,0 +1,3 @@
+/home/jargon/school/eden/CMakeFiles/Eden.dir
+/home/jargon/school/eden/CMakeFiles/edit_cache.dir
+/home/jargon/school/eden/CMakeFiles/rebuild_cache.dir

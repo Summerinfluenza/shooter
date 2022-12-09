@@ -1,0 +1,5 @@
+/home/oscarronndahl/Documents/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/oscarronndahl/Documents/learn/eden -B /home/oscarronndahl/Documents/learn/eden
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/oscarronndahl/Documents/learn/eden
